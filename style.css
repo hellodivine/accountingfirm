@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/*purpleblahh-#220400*/
+/*black- #7879bb*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4rem;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: #7879bb;
+    border-radius: 5px;
+}
+
+p{
+    margin: 0.75rem 0;
+}
+
+/* utility classes */
+.bg-dark{
+    background: #220400;
+    color: #fff;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0.2rem;
+    overflow: hidden;
+}
+.text_center{
+    text-align: center;
+}
+.logo{
+    color: #7879bb;
+}
+.lp_heading{
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+.whatheading{
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+.maintxthead{
+    color: #7879bb;
+}
+.lp_text{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+.btn{
+    display: inline-block;
+    color: #fff;
+    background: #7879bb;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 0.75rem;
+}
+.btn:hover{
+    background-color: #220400;
+}
+
+
+/* nav bar */
+#navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background:#220400;
+    color: #fff;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1rem;
+
+}
+
+#navbar a {
+    color: #fff;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+/* showcase area */
+#landingpage{
+    background: #220400 url(/img/showcase.jpg) no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+}
+.lp_content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+    /* overlay */
+    position: absolute;
+    top: 54px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0,0.5);
+}
+/* services */
+.dowhat{
+    padding: 1.5rem 0;
+}
+.cards{
+    display: flex;
+    padding: 1rem;
+}
+.item{
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+#what .cards .item i {
+    background: #7879bb;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+/*section who we are */
+#who{
+    display: flex;
+}
+#who div{
+    flex: 1;
+}
+.whoimg{
+    background:  url(/img/Premium\ Photo\ _\ Business\ team\ standing\ in\ office.jpeg) no-repeat center center/cover;
+}
+.whotxt{
+    padding: 1.3rem;
+}
+#who ul{
+    list-style: none;
+    
+}
